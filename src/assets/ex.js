@@ -1,6 +1,6 @@
 const testFunc = {
     "call" : function(text){
-        return 'ok, got '+text
+        return text.toUpperCase();
     },
-    "text" : "tiger"
+    "text" : "Tiger"
 }
